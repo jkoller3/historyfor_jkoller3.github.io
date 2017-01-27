@@ -29,20 +29,28 @@ $(document).on('ready', function () {
   ]
 	});
 });
-var canvas = document.getElementById("invisiblecanvas");
-context = canvas.getContext('2d');
-var base_image = new Image(1440, 2560);
+
 var image_fromDOM;
 $("button").click(function (event) {
-	event.preventDefault();
-	var x = confirm("Will you download this?");
-	if (x) {
+	//to download this? 
+	var toDownload = confirm("Will you download this?");
+	if (toDownload) {
 		var dom_search = $(".slick-track").children();
 		dom_search.each(function (i) {
-				if ($(dom_search[i]).attr("aria-hidden") !== "true") {
-					image_fromDOM = $($(dom_search[i])[0].children[0]).attr("src"); 
-					window.open(image_fromDOM);
-				}
-	});
-}
+			if ($(dom_search[i]).attr("aria-hidden") !== "true") {
+				image_fromDOM = $($(dom_search[i])[0].children[0]).attr("src");
+				window.open(image_fromDOM);
+			}
+		});
+		//logic for adding point to user's score 
+		//not connected to a working db, but basic logic is here as an outline of how it could work
+		$.ajax({
+			type: "post"
+			, url: "userPTupdate.php"
+			, data: "pointIncrement=" + 1
+			, success: function (data) {
+				console.log(data);
+			}
+		});
+	}
 });
