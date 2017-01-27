@@ -232,17 +232,13 @@ hr {
   padding-right: 15px;
 }
 @media (min-width: 300px) {
-/*
   .container {
     width: 480px;
   }
-*/
-/*
 	#a{
 		width: 125%;
 		height: 125%
 	}
-*/
 	.btn-danger{
 		margin-left: 35%
 	}	
