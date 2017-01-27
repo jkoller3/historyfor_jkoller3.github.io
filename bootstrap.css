@@ -235,31 +235,28 @@ hr {
   .container {
     width: 480px;
   }
-	#a{
-		width: 125%;
-		height: 125%
-	}
 	.btn-danger{
-		margin-left: 35%
+/*		margin-left: 40%*/
+margin:20px 39%;
 	}	
 }
-@media (min-width: 600px) {
+@media (min-width: 450px) {
   .container {
-    width: 750px;
+    width: 480px;
   }
 	.btn-danger{
 		margin-left: 40%
 	}	
 }
-@media (min-width: 768px) {
+@media (min-width: 500px) {
   .container {
-    width: 750px;
+    width: 480px;
   }
 	.btn-danger{
-		margin-left: 46%
+		margin-left: 42.5%
 	}	
 }
-@media (min-width: 992px) {
+@media (min-width: 570) {
   .container {
     width: 970px;
   }
