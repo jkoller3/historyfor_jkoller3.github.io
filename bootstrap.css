@@ -231,7 +231,7 @@ hr {
   padding-left: 15px;
   padding-right: 15px;
 }
-@media (min-width: 300px) {
+@media (min-width: 10px) {
   .container {
     width: 480px;
   }
