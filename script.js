@@ -1,4 +1,6 @@
+
 $(document).on('ready', function () {
+//	$("div").prop("aria-hidden").val("false");
 	$(".variable").slick({
 		dots: true
 		, swipe: true
