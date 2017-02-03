@@ -19,14 +19,15 @@ $("#tobedownloaded").click(function (e) {
 			dialogStop = true;
 			var imageZshift = 'position:fixed;top:0px;left:0px;width:100%;height:100%;z-index:1;';
 			$("#tobedownloaded").attr("style", imageZshift);
-				$.ajax({
-			type: "post"
-			, url: "userPTupdate.php"
-			, data: "pointIncrement=" + 1
-			, success: function (data) {
-				console.log(data);
-			}
-		});
+			$("#closeIMG").attr("style", "z-index:2;")
+//				$.ajax({
+//			type: "post"
+//			, url: "userPTupdate.php"
+//			, data: "pointIncrement=" + 1
+//			, success: function (data) {
+//				console.log(data);
+//			}
+//		});
 		}
 		
 	}
@@ -35,4 +36,13 @@ $("#tobedownloaded").click(function (e) {
 
 $(".modal-close").click(function(){
 	window.close();
-})
+});
+
+var carouselpage; 
+$("#closeIMG").click(function(){
+
+	$("#wallpaperModal").css("visibility", "hidden");
+	$("#gameModal").attr("style", "visibility:show; padding-top: 73px; padding-bottom: 54px;");
+	
+//	$("#tobedownloaded").attr("src", wallpaper);
+});
