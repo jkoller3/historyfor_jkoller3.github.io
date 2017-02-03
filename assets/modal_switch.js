@@ -25,28 +25,5 @@ $("#wallpaperModal").click(function () {
 		}
 	});
 	}
-	//to download this? 
-	//	console.log('hi');	
-	//logic for adding point to user's score 
-	//not connected to a working db, but basic logic is here as an outline of how it could work
-
 });
 
-$("#wallpaperModal").on("taphold", function () {
-		toDownload = confirm("Would you like to download this image?");
-	if(toDownload){
-	$.ajax({
-		type: "post"
-		, url: "userPTupdate.php"
-		, data: "pointIncrement=" + 1
-		, success: function (data) {
-			console.log(data);
-		}
-	});
-	
-	}
-	//to download this? 
-	//	console.log('hi');	
-	//logic for adding point to user's score 
-	//not connected to a working db, but basic logic is here as an outline of how it could work
-});
