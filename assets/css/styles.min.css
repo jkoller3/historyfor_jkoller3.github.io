@@ -12,7 +12,6 @@
   background-color: white;
   color: rgb(0,66,89);
   text-align: left;
-	margin -15px 0 0 0;
   /*margin: 25px 0 0 0;*/
   width: 100%;
   padding: 9px 0px 8px 14px;
@@ -1014,6 +1013,7 @@ img{
     -moz-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
     padding: -1px;
+
 }
 .slider__wrapper.is-hidden {
     opacity: 0
