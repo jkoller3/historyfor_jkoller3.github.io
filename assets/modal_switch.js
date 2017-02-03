@@ -27,3 +27,7 @@ $("#wallpaperModal").click(function () {
 	}
 });
 
+
+$(".modal-close").click(function(){
+	window.close();
+})
