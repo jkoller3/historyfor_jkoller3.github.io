@@ -771,6 +771,7 @@ button:hover {
     background-color: #grey;
     color: #fff;
 		margin: 1.5px;
+	width: 1px;
 		
 }
 .button:disabled,
