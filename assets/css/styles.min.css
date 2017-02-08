@@ -1,6 +1,10 @@
 /*
 An adjusted Glide
 */
+
+html{
+	overflow:auto;
+}
 #caption{
 	margin: .1em 0 0 0;
 	color: grey;
