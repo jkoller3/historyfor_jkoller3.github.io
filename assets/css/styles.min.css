@@ -553,7 +553,6 @@ button.modal-direction {
   background-color: black;
 }
 
-
 .glide__arrows,
 .glide__bullets,
 .glide__slide {
@@ -1137,3 +1136,8 @@ li.active a.DLimg{
 }
 
 
+.glide__bullet{
+	max-width:.6px;
+	margin:1px;
+	min-height: .5rem;
+}
