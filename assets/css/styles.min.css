@@ -203,7 +203,7 @@ button::-moz-focus-inner {
 
 button {
 	-webkit-appearance: none;
-/*	border-radius: 100%;*/
+	border-radius: 100%;
 	color: inherit;
 	cursor: pointer;
 	display: inline-block;
@@ -228,6 +228,11 @@ ol {
 	padding-left: 0;
 	padding-right: 1.5rem;
 }
+
+input[type="button" i], input[type="submit" i], input[type="reset" i], input[type="file" i]::-webkit-file-upload-button, button {
+    padding: 1px 1.5px 1px 1.5px;
+}
+
 
 ul ul,
 ol ol {
@@ -1211,7 +1216,7 @@ img {
 	width: 100%;
 	height: 420px;
 	height: 54vh;
-/*	border-radius: 12px;*/
+	border-radius: 12px;
 	outline: transparent solid 1px
 }
 
