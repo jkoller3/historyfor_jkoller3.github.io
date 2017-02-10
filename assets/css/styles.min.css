@@ -203,7 +203,7 @@ button::-moz-focus-inner {
 
 button {
 	-webkit-appearance: none;
-	border-radius: 100%;
+/*	border-radius: 100%;*/
 	color: inherit;
 	cursor: pointer;
 	display: inline-block;
@@ -1241,37 +1241,3 @@ li.active a.DLimg {
 }
 
 
-
-.bullet-pagination {
-	-webkit-touch-callout: none;
-	user-select: none
-  width: 100%;
-  text-align: center;
-  margin-top: 15px;
-/*		border: 1px solid red;*/
-	background-color: red;
-
-}
-
-.bullet {
-  display: inline-block;
-  background: #999;
-  padding: 4px;
-  border-radius: 6px;
-  margin-right: 5px;
-  opacity: 0.4;
-
-  -webkit-transition: opacity 0.5s linear;
-  -moz-transition: opacity 0.5s linear;
-  -ms-transition: opacity 0.5s linear;
-  -o-transition: opacity 0.5s linear;
-  transition: opacity 0.5s linear;
-}
-
-.bullet.active {
-  opacity: 1;
-}
-
-.bullet:last-child {
-  margin-right: 0;
-}
