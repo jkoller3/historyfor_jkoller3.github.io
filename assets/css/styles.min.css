@@ -203,12 +203,12 @@ button::-moz-focus-inner {
 
 button {
 	-webkit-appearance: none;
-	border-radius: 100%;
+/*	border-radius: 100%;*/
 	color: inherit;
 	cursor: pointer;
 	display: inline-block;
 	min-height: .5rem;
-	padding: 0.5 .5rem;
+/*	padding: 0.5 .5rem;*/
 	margin-bottom: 0;
 	background: #dadada;
 	border: solid 1px #c0c0c0;
@@ -684,10 +684,6 @@ button.modal-direction {
 .glide__slide {
 	-webkit-touch-callout: none;
 	user-select: none
-}
-
-.glide__bullet{
-	padding:0;
 }
 
 
@@ -1239,7 +1235,7 @@ img {
 	width: 100%;
 	height: 420px;
 	height: 54vh;
-	border-radius: 12px;
+/*	border-radius: 12px;*/
 	outline: transparent solid 1px
 }
 
