@@ -230,7 +230,7 @@ ol {
 }
 
 input[type="button" i], input[type="submit" i], input[type="reset" i], input[type="file" i]::-webkit-file-upload-button, button {
-    padding: 1px 1.5px 1px 1.5px;
+    padding: .5em .75e .5em .75em;
 }
 
 
@@ -676,68 +676,7 @@ a:hover {
 }
 */
 
-@font-face {
-	font-family: Karla;
-	font-style: normal;
-	font-weight: 400;
-	src: local('Karla'), local('Karla-Regular'), url(http://fonts.gstatic.com/s/karla/v5/Vu9Dx8oyiuqEkuIyR3OPDQ.ttf) format('truetype')
-}
 
-@font-face {
-	font-family: Karla;
-	font-style: normal;
-	font-weight: 700;
-	src: local('Karla Bold'), local('Karla-Bold'), url(http://fonts.gstatic.com/s/karla/v5/6rYv84POalfstX0SkMI-EvesZW2xOQ-xsNqO47m55DA.ttf) format('truetype')
-}
-
-@font-face {
-	font-family: Karla;
-	font-style: italic;
-	font-weight: 400;
-	src: local('Karla Italic'), local('Karla-Italic'), url(http://fonts.gstatic.com/s/karla/v5/T7MBC_6JTkW2ZBbjf0rXXw.ttf) format('truetype')
-}
-
-@font-face {
-	font-family: Karla;
-	font-style: italic;
-	font-weight: 700;
-	src: local('Karla Bold Italic'), local('Karla-BoldItalic'), url(http://fonts.gstatic.com/s/karla/v5/VZ08RdiotRdV1D0ewK-mxC3USBnSvpkopQaUR-2r7iU.ttf) format('truetype')
-}
-
-@font-face {
-	font-family: Oxygen;
-	font-style: normal;
-	font-weight: 300;
-	src: local('Oxygen Light'), local('Oxygen-Light'), url(http://fonts.gstatic.com/s/oxygen/v5/AwBqWF2kjhlybWamaKMPcaCWcynf_cDxXwCLxiixG1c.ttf) format('truetype')
-}
-
-@font-face {
-	font-family: Oxygen;
-	font-style: normal;
-	font-weight: 400;
-	src: local('Oxygen'), local('Oxygen-Regular'), url(http://fonts.gstatic.com/s/oxygen/v5/f8OBjBbevvywgbyJOxlO7Q.ttf) format('truetype')
-}
-
-@font-face {
-	font-family: Oxygen;
-	font-style: normal;
-	font-weight: 700;
-	src: local('Oxygen Bold'), local('Oxygen-Bold'), url(http://fonts.gstatic.com/s/oxygen/v5/yVHpdQrmTj9Kax1tmFSx2qCWcynf_cDxXwCLxiixG1c.ttf) format('truetype')
-}
-
-
-/*!
- *  Font Awesome 4.4.0 by @davegandy - http://fontawesome.io - @fontawesome
- *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
- */
-
-@font-face {
-	font-family: FontAwesome;
-	src: url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/fonts/fontawesome-webfont.eot?v=4.4.0);
-	src: url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/fonts/fontawesome-webfont.eot?#iefix&v=4.4.0) format('embedded-opentype'), url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/fonts/fontawesome-webfont.woff2?v=4.4.0) format('woff2'), url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/fonts/fontawesome-webfont.woff?v=4.4.0) format('woff'), url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/fonts/fontawesome-webfont.ttf?v=4.4.0) format('truetype'), url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/fonts/fontawesome-webfont.svg?v=4.4.0#fontawesomeregular) format('svg');
-	font-weight: 400;
-	font-style: normal
-}
 
 img,
 legend {
@@ -1137,6 +1076,21 @@ img {
 	}
 }
 
+
+@media screen and (max-width: 470px) {
+	.footer__links {
+		float: left;
+		display: block;
+		margin-right: 2.35765%;
+		width: 100%;
+		text-align: center
+	}
+	.footer__links:last-child {
+		margin-right: 0
+	}
+}
+
+
 .footer__links ul li {
 	display: inline-block;
 	margin-left: 9px
@@ -1145,7 +1099,7 @@ img {
 .slider {
 	background: url(../images/body-bg.png) top left repeat-x;
 	background-size: auto 100%;
-	margin-bottom: 36px
+	margin-bottom: 16px
 }
 
 .slider.is-loading:after {
