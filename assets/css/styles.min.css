@@ -899,7 +899,9 @@ ul {
 .glide__bullets>.active {
 	background-color: red;
 }
-
+.glide__bullet{
+	width:0.06%;
+}
 .glide__bullets>:focus,
 .glide__bullets>:hover {
 	border: 1px solid red;
