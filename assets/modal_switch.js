@@ -39,3 +39,9 @@ $("#closeIMG").click(function(){
 	$("#wallpaperModal").css("visibility", "hidden");
 	$("#gameModal").attr("style", "visibility:show; padding-top: 73px; padding-bottom: 54px;");
 });
+
+$(document).ready(function(){
+	
+});
+	
+}

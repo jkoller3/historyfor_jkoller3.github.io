@@ -686,8 +686,10 @@ button.modal-direction {
 	user-select: none
 }
 
-.glide__arrow:focus,
-.glide__bullets>:focus,
+.glide__bullet{
+	padding:0;
+}
+
 
 /*
 a:active,
@@ -898,9 +900,6 @@ ul {
 
 .glide__bullets>.active {
 	background-color: red;
-}
-.glide__bullet{
-	width:0.06%;
 }
 .glide__bullets>:focus,
 .glide__bullets>:hover {
@@ -1308,4 +1307,40 @@ img {
 
 li.active a.DLimg {
 	visibility: visible;
+}
+
+
+
+.bullet-pagination {
+	-webkit-touch-callout: none;
+	user-select: none
+  width: 100%;
+  text-align: center;
+  margin-top: 15px;
+/*		border: 1px solid red;*/
+	background-color: red;
+
+}
+
+.bullet {
+  display: inline-block;
+  background: #999;
+  padding: 4px;
+  border-radius: 6px;
+  margin-right: 5px;
+  opacity: 0.4;
+
+  -webkit-transition: opacity 0.5s linear;
+  -moz-transition: opacity 0.5s linear;
+  -ms-transition: opacity 0.5s linear;
+  -o-transition: opacity 0.5s linear;
+  transition: opacity 0.5s linear;
+}
+
+.bullet.active {
+  opacity: 1;
+}
+
+.bullet:last-child {
+  margin-right: 0;
 }
