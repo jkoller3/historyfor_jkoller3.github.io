@@ -271,7 +271,7 @@ img {
 
 .carousel {
   margin-bottom: 1rem;
-  overflow: hidden;
+  overflow: scroll;
   position: relative;
   -webkit-backface-visibility: hidden;
   -webkit-perspective: 1000; }
@@ -435,7 +435,7 @@ img {
   z-index: 2147483647;
   width: 100%;
   height: 100%;
-  overflow: hidden;
+  overflow: scroll;
   -ms-touch-action: none;
       touch-action: none;
   /*background-color: #eeeeee;*/
