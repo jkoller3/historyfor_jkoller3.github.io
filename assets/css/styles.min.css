@@ -1,4 +1,6 @@
-
+/*
+An adjusted Glide
+*/
 
 html{
 	overflow:scroll;
@@ -472,11 +474,11 @@ img {
   max-width: 95%;
   vertical-align: middle;
   margin: 0 auto;
-  overflow: scroll; }
+  overflow: auto; }
 
 .modal-iframe,
 .modal-image {
-  overflow: scroll; }
+  overflow: hidden; }
 
 .modal-iframe .media,
 .modal-iframe iframe {
@@ -714,7 +716,7 @@ button{
     margin: 0
 }
 button {
-/*    overflow: visible*/
+    overflow: visible
 }
 button {
     text-transform: none
@@ -1135,7 +1137,7 @@ li.active a.DLimg{
 
 
 .glide__bullet{
-	max-width:.6px;
+	max-width:.000006px;
 	margin:1px;
 	min-height: .5rem;
 }
