@@ -3056,6 +3056,7 @@ button.modal-direction {
 .text-xxs-center {
   text-align: center; }
 
+/*
 @media (max-width: 37.49em) {
   .text-xxs-pull-only {
     text-align: left; }
@@ -3181,6 +3182,7 @@ button.modal-direction {
 @media (min-width: 75em) {
   .grid-state-indicator {
     width: 4px; } }
+*/
 .scrollbar-measure {
   position: absolute;
   top: -9999px;
