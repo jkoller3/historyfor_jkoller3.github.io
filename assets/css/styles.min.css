@@ -1186,7 +1186,7 @@ img {
 }
 
 .slider__bullets>* {
-	width: 16px;
+	width: 1px;
 	height: .05em;
 	padding: 0
 }
