@@ -271,7 +271,8 @@ img {
 
 .carousel {
   margin-bottom: 1rem;
-  overflow: scroll;
+  overflow-x: hidden;
+	overflow-y: scroll;
   position: relative;
   -webkit-backface-visibility: hidden;
   -webkit-perspective: 1000; }
