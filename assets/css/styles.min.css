@@ -433,7 +433,7 @@ img {
   z-index: 2147483647;
   width: 100%;
   height: 100%;
-  overflow: flow;
+  overflow: hidden;
   -ms-touch-action: none;
       touch-action: none;
   /*background-color: #eeeeee;*/
