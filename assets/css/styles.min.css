@@ -1099,7 +1099,7 @@ img {
 .slider {
 	background: url(../images/body-bg.png) top left repeat-x;
 	background-size: auto 100%;
-	margin-bottom: 16px
+	margin-bottom: 36px
 }
 
 .slider.is-loading:after {
