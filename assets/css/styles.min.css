@@ -1183,7 +1183,7 @@ img {
 }
 
 .slider__bullets>* {
-	width: .05em;
+	width: 1px;
 	height: .05em;
 	padding: 0
 }
