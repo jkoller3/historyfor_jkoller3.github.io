@@ -294,11 +294,11 @@ screen and (min-width: 48em) {
 		text-align: left;
 	}
 	.dl-horizontal > dd {
-		margin-left: 10.375rem;
+		margin-left: 1.375rem;
 	}
 	[dir="rtl"] .dl-horizontal > dd {
 		margin-left: auto;
-		margin-right: 10.375rem;
+		margin-right: 1.375rem;
 	}
 }
 
