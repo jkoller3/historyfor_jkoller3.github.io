@@ -271,8 +271,7 @@ img {
 
 .carousel {
   margin-bottom: 1rem;
-  overflow-x: hidden;
-	overflow-y: scroll;
+  overflow: hidden;
   position: relative;
   -webkit-backface-visibility: hidden;
   -webkit-perspective: 1000; }
@@ -479,7 +478,7 @@ img {
 
 .modal-iframe,
 .modal-image {
-  overflow: scroll; }
+  overflow: hidden; }
 
 .modal-iframe .media,
 .modal-iframe iframe {
@@ -1138,7 +1137,7 @@ li.active a.DLimg{
 
 
 .glide__bullet{
-	max-width:.000006px;
+	width:.006px;
 	margin:1px;
 	min-height: .5rem;
 }
