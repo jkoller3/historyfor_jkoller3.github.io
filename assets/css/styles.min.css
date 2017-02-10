@@ -260,8 +260,8 @@ ul.colored > li {
 
 ul.colored > li:before {
 	position: absolute;
-	top: .1rem;
-	left: -1rem;
+/*	top: .1rem;*/
+/*	left: -1rem;*/
 	-webkit-margin-start: -.25rem;
 	content: "\25cf";
 	color: #00a9ec;
