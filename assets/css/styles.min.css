@@ -552,7 +552,7 @@ button.modal-direction {
   opacity: .7;
   background-color: black;
 }
-
+	
 .glide__arrows,
 .glide__bullets,
 .glide__slide {
@@ -1136,6 +1136,3 @@ li.active a.DLimg{
 }
 
 
-.glide__bullet{
-
-}
