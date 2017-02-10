@@ -243,7 +243,7 @@ ul.colored{
     float: left;
     width: 9.375rem;
     white-space: nowrap;
-    overflow: scroll;
+    overflow: hidden;
     text-align: right;
     text-overflow: ellipsis; }
     [dir="rtl"] .dl-horizontal > dt {
@@ -478,7 +478,7 @@ img {
 
 .modal-iframe,
 .modal-image {
-  overflow: hidden; }
+  overflow: scroll; }
 
 .modal-iframe .media,
 .modal-iframe iframe {
