@@ -226,7 +226,7 @@ ol {
 [dir="rtl"] ul,
 [dir="rtl"] ol {
 	padding-left: 0;
-	padding-right: 2.5rem;
+	padding-right: 1.5rem;
 }
 
 ul ul,
@@ -277,30 +277,6 @@ ul.colored > li:before {
 	text-align: left;
 }
 
-@media print and (min-width: 537px),
-screen and (min-width: 48em) {
-	.dl-horizontal > dt {
-		clear: left;
-		float: left;
-		width: 3.375rem;
-		white-space: nowrap;
-		overflow: hidden;
-		text-align: right;
-		text-overflow: ellipsis;
-	}
-	[dir="rtl"] .dl-horizontal > dt {
-		clear: right;
-		float: right;
-		text-align: left;
-	}
-	.dl-horizontal > dd {
-		margin-left: 1.375rem;
-	}
-	[dir="rtl"] .dl-horizontal > dd {
-		margin-left: auto;
-		margin-right: 1.375rem;
-	}
-}
 
 iframe,
 img {
